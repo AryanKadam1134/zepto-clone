@@ -16,7 +16,7 @@ const App = () => {
         <TabsSection />
       </div>
 
-      <div className="mx-auto max-w-7xl py-5 flex flex-col gap-5">
+      <div className="mx-5 lg:mx-auto lg:max-w-7xl py-5 flex flex-col gap-5">
         <div className="cursor-pointer">
           <img src={heroSectionImage} alt="" className="w-full" />
         </div>

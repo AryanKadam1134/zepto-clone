@@ -31,7 +31,7 @@ const ProductsSection = () => {
     <div className="">
       <p className="mb-4 text-xl font-bold">Products</p>
 
-      <div className="mx-1 grid grid-cols-8 gap-3">
+      <div className="mx-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-3">
         {!loading &&
           products?.length &&
           products.map((product) => {

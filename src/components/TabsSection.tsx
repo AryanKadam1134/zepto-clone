@@ -25,7 +25,7 @@ const TAB_ITEMS = [
 const TabsSection = () => {
   return (
     <div className="bg-white pt-3.5 border-b border-[#e5e7eb]">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-5 lg:mx-auto lg:max-w-7xl">
         <div className="flex items-center gap-4.5">
           {TAB_ITEMS.map(({ name, logo, active }) => {
             return (
