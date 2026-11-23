@@ -71,6 +71,20 @@ const Header = () => {
             </div>
           </div>
         </div>
+
+        {/* Search Bar */}
+        <div className="mt-4 md:hidden w-full relative border rounded-md border-[#e5e7eb]">
+          <Search
+            size={19}
+            className="absolute left-3 top-1/2 -translate-y-1/2"
+          />
+
+          <input
+            type="text"
+            placeholder="Search for products"
+            className="pl-10 w-full px-4 py-2"
+          />
+        </div>
       </div>
     </div>
   );
